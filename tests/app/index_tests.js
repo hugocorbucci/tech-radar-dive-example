@@ -4,4 +4,4 @@ describe('App', function() {
       chai.assert.equal('hello world', app.index());
     });
   });
-})
+});
