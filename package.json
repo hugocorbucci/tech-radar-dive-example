@@ -1,0 +1,18 @@
+{
+  "name": "tech-radar-dive-example",
+  "version": "0.0.1",
+  "description": "\"A small example JS project to show off Grunt.js, Foreman and SnapCI. Also use heroku.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hugocorbucci/tech-radar-dive-example.git"
+  },
+  "author": "Hugo Corbucci <hugo.corbucci@gmail.com> (http://hugocorbucci.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugocorbucci/tech-radar-dive-example/issues"
+  }
+}
