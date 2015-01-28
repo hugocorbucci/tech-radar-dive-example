@@ -4,7 +4,8 @@
   "description": "\"A small example JS project to show off Grunt.js, Foreman and SnapCI. Also use heroku.\"",
   "main": "index.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "start": "node server.js"
   },
   "engines": {
     "node": "0.10.x",
@@ -26,5 +27,8 @@
     "mocha": "~2.1.0",
     "chai": "~1.10.0",
     "grunt-contrib-watch": "~0.6.1"
+  },
+  "dependencies": {
+    "connect": "^3.3.4"
   }
 }
