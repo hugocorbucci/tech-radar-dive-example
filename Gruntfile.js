@@ -10,10 +10,15 @@ module.exports = function(grunt) {
           run: true
         }
       }
+    },
+    watch: {
+      files: ['Gruntfile.js', 'src/**/*.js', 'tests/**/*.js', 'tests/**/*.html'],
+      tasks: ['default']
     }
   });
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-mocha');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['jshint', 'mocha']);
 };
